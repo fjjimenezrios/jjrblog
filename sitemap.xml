@@ -2,30 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
-    <lastmod>2026-11-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/libros/</loc>
-    <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-16T13:38:34+01:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-16T13:38:34+01:00</lastmod>
   </url><url>
     <loc>/posts/retomar-habitos-pasados/</loc>
-    <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-16T13:38:34+01:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-16T13:38:34+01:00</lastmod>
   </url><url>
     <loc>/tags/vida/</loc>
-    <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-16T13:38:34+01:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2026-11-16T12:36:54+01:00</lastmod>
   </url><url>
     <loc>/archives/</loc>
+    <lastmod>2026-11-16T12:29:23+01:00</lastmod>
   </url><url>
     <loc>/search/</loc>
+    <lastmod>2026-11-16T12:29:23+01:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
   </url><url>
     <loc>/posts/la-vida-es-hacer-o-ser-primera-entrada-del-blog/</loc>
+    <lastmod>2026-11-16T12:36:54+01:00</lastmod>
   </url>
 </urlset>
