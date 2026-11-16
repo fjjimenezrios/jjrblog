@@ -23,7 +23,6 @@ paginate = 5
   TocOpen = false
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
-  ShowShareButtons = true
   ShowLastUpdated = true
   description = "Blog de un pensador que desarrolla: filosofía, política y desarrollo web."
 

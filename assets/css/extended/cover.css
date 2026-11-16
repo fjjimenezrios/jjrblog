@@ -10,3 +10,17 @@
 .tag-entry .entry-cover {
   display: block;
 }
+
+.post-content a.glightbox {
+  display: inline-block;
+  box-shadow: none;
+}
+
+.post-content a.glightbox img {
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+  margin: 4px;
+  border-radius: 6px;
+  cursor: zoom-in;
+}
