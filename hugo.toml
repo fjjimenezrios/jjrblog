@@ -7,6 +7,7 @@ theme = "papermod"
 paginate = 5
 
 [params]
+  images = ["https://fjjimenezrios.github.io/jjrblog/images/og.jpg"]
   contentTypeName = "post"
   showMenuItems = 2
   showLanguageSelector = false
@@ -15,6 +16,10 @@ paginate = 5
   autoCover = true
   showLastUpdated = false
   readingTime = true
+
+[params.label]
+  icon = "logo.png"
+  iconHeight = 34
 
 [params.twitter]
   creator = ""
