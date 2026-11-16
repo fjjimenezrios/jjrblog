@@ -22,8 +22,6 @@ content:
       - name: date
         label: Fecha
         type: date
-        options:
-          time: true
       - name: draft
         label: Borrador (desmárcalo para publicar)
         type: boolean

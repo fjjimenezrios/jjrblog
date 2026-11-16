@@ -1,6 +1,6 @@
 ---
 title: Retomar hábitos pasados
-date: 2026-11-16T12:43
+date: 2026-11-16T12:43:00+01:00
 draft: true
 cover:
   image: /images/9788411191159.webp
