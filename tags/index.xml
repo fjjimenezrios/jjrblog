@@ -11,11 +11,19 @@
     </image>
     <generator>Hugo</generator>
     <language>es</language>
+    <lastBuildDate>Mon, 16 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Libros</title>
+      <link>/tags/libros/</link>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/libros/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Vida</title>
       <link>/tags/vida/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
       <guid>/tags/vida/</guid>
       <description></description>
     </item>

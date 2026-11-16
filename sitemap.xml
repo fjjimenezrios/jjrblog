@@ -3,6 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
+    <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/libros/</loc>
+    <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/retomar-habitos-pasados/</loc>
+    <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/vida/</loc>
+    <lastmod>2026-11-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/archives/</loc>
   </url><url>
@@ -11,11 +27,5 @@
     <loc>/categories/</loc>
   </url><url>
     <loc>/posts/la-vida-es-hacer-o-ser-primera-entrada-del-blog/</loc>
-  </url><url>
-    <loc>/posts/</loc>
-  </url><url>
-    <loc>/tags/</loc>
-  </url><url>
-    <loc>/tags/vida/</loc>
   </url>
 </urlset>
