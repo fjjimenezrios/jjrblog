@@ -1,0 +1,44 @@
+baseURL: /
+relativeURLs: true
+canonifyURLs: false
+locale: es
+defaultContentLanguage: es
+theme: papermod
+enableRobotsTXT: true
+title: JJR Blog
+pagination:
+  pagerSize: 5
+params:
+  description: "Blog de un pensador que desarrolla: filosofía, política y desarrollo web."
+  keywords: [blog, desarrollo, filosofía]
+  images:
+    - https://jjrblog.vercel.app/images/og.jpg
+  homeInfoParams:
+    Title: "Bienvenido 👋"
+    Content: "Aquí podrás leer cosas interesantes desde filosofía, política y desarrollo web."
+  label:
+    icon: logo.png
+    iconHeight: 34
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowWordCount: true
+  ShowToc: true
+  TocOpen: false
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+outputs:
+  home: [HTML, RSS, JSON]
+menus:
+  main:
+    - identifier: search
+      name: Buscar
+      url: /search/
+      weight: 10
+    - identifier: tags
+      name: Etiquetas
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archivo
+      url: /archives/
+      weight: 30
