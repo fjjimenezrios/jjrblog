@@ -4,4 +4,4 @@ Disallow:
 {{- else }}
 Disallow: /
 {{- end }}
-Sitemap: https://fjjimenezrios.github.io/jjrblog/sitemap.xml
+Sitemap: https://jjrblog.vercel.app/sitemap.xml

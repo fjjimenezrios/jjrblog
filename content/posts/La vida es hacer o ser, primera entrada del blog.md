@@ -4,7 +4,7 @@ day: 2024-11-27
 tags:
   - vida
 images:
-  - https://fjjimenezrios.github.io/jjrblog/images/og.jpg
+  - https://jjrblog.vercel.app/images/og.jpg
 cover:
   image: /images/escuela-de-atenas.jpg
   alt: La escuela de Atenas, de Rafael

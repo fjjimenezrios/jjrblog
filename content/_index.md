@@ -1,4 +1,4 @@
 ---
 images:
-  - https://fjjimenezrios.github.io/jjrblog/images/og.jpg
+  - https://jjrblog.vercel.app/images/og.jpg
 ---
