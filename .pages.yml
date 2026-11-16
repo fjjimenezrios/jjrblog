@@ -1,0 +1,50 @@
+media:
+  input: static/images
+  output: /images
+
+content:
+  - name: posts
+    label: Entradas
+    type: collection
+    path: content/posts
+    filename: "{primary}.md"
+    view:
+      fields: [title, date, draft]
+      primary: title
+      sort: [date]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Título
+        type: string
+      - name: date
+        label: Fecha
+        type: date
+        options:
+          time: true
+      - name: draft
+        label: Borrador (desmárcalo para publicar)
+        type: boolean
+        default: true
+      - name: tags
+        label: Etiquetas
+        type: string
+        list: true
+      - name: cover
+        label: Portada (opcional)
+        type: object
+        fields:
+          - name: image
+            label: Imagen
+            type: image
+          - name: alt
+            label: Texto alternativo
+            type: string
+          - name: caption
+            label: Pie de foto
+            type: string
+      - name: body
+        label: Contenido
+        type: rich-text
