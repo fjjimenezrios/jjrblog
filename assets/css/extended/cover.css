@@ -1,0 +1,8 @@
+.entry-cover img,
+.post-single .entry-cover img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  object-fit: cover;
+  object-position: center 30%;
+}
