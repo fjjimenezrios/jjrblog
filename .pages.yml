@@ -26,8 +26,15 @@ content:
         label: Borrador (desmárcalo para publicar)
         type: boolean
         default: true
+      - name: description
+        label: Descripción (resumen para buscadores y listado)
+        type: text
       - name: tags
         label: Etiquetas
+        type: string
+        list: true
+      - name: images
+        label: Imagen al compartir (URL completa; si vacío usa la del sitio)
         type: string
         list: true
       - name: cover
@@ -50,3 +57,134 @@ content:
       - name: body
         label: Contenido
         type: rich-text
+
+  - name: site
+    label: Ajustes del sitio
+    type: file
+    path: hugo.yaml
+    format: yaml
+    fields:
+      - name: title
+        label: Título del sitio
+        type: string
+      - name: params
+        label: Parámetros
+        type: object
+        fields:
+          - name: description
+            label: Descripción del sitio
+            type: text
+          - name: keywords
+            label: Palabras clave
+            type: string
+            list: true
+          - name: images
+            label: Imagen al compartir (URL completa)
+            type: string
+            list: true
+          - name: homeInfoParams
+            label: Texto de bienvenida (inicio)
+            type: object
+            fields:
+              - name: Title
+                label: Título
+                type: string
+              - name: Content
+                label: Texto
+                type: text
+          - name: ShowBreadCrumbs
+            label: Mostrar breadcrumbs
+            type: boolean
+          - name: ShowReadingTime
+            label: Mostrar tiempo de lectura
+            type: boolean
+          - name: ShowWordCount
+            label: Mostrar número de palabras
+            type: boolean
+          - name: ShowToc
+            label: Mostrar índice en las entradas
+            type: boolean
+          - name: TocOpen
+            label: Índice desplegado por defecto
+            type: boolean
+          - name: ShowPostNavLinks
+            label: Enlaces a entrada anterior y siguiente
+            type: boolean
+          - name: ShowCodeCopyButtons
+            label: Botón de copiar en el código
+            type: boolean
+          - name: label
+            label: Logo
+            type: object
+            hidden: true
+            fields:
+              - name: icon
+                type: string
+              - name: iconHeight
+                type: number
+      - name: menus
+        label: Menú superior
+        type: object
+        fields:
+          - name: main
+            label: Enlaces
+            type: object
+            list: true
+            fields:
+              - name: name
+                label: Texto
+                type: string
+              - name: url
+                label: Enlace (ej. /tags/)
+                type: string
+              - name: weight
+                label: Orden (menor primero)
+                type: number
+              - name: identifier
+                label: Identificador
+                type: string
+      - name: baseURL
+        type: string
+        hidden: true
+      - name: relativeURLs
+        type: boolean
+        hidden: true
+      - name: canonifyURLs
+        type: boolean
+        hidden: true
+      - name: locale
+        type: string
+        hidden: true
+      - name: defaultContentLanguage
+        type: string
+        hidden: true
+      - name: theme
+        type: string
+        hidden: true
+      - name: enableRobotsTXT
+        type: boolean
+        hidden: true
+      - name: pagination
+        type: object
+        hidden: true
+        fields:
+          - name: pagerSize
+            type: number
+      - name: outputs
+        type: object
+        hidden: true
+        fields:
+          - name: home
+            type: string
+            list: true
+
+  - name: home
+    label: Inicio (imagen al compartir)
+    type: file
+    path: content/_index.md
+    format: yaml-frontmatter
+    fields:
+      - name: images
+        label: Imagen al compartir (URL completa)
+        type: string
+        list: true
