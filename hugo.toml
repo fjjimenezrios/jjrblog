@@ -43,3 +43,23 @@ paginate = 5
         logoText = "JJR Blog"
         logoHomeLink = "/"
 
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[menus]
+  [[menus.main]]
+    identifier = "search"
+    name = "Buscar"
+    url = "/search/"
+    weight = 10
+  [[menus.main]]
+    identifier = "tags"
+    name = "Etiquetas"
+    url = "/tags/"
+    weight = 20
+  [[menus.main]]
+    identifier = "archives"
+    name = "Archivo"
+    url = "/archives/"
+    weight = 30
