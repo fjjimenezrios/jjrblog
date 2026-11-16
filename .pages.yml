@@ -36,9 +36,13 @@ content:
         label: Portada (opcional)
         type: object
         fields:
+          - name: image_url
+            label: URL de la imagen (o sube un archivo abajo)
+            type: string
           - name: image
-            label: Imagen
+            label: Subir imagen
             type: image
+            rename: safe
           - name: alt
             label: Texto alternativo
             type: string
