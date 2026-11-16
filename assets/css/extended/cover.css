@@ -6,3 +6,7 @@
   object-fit: cover;
   object-position: center 30%;
 }
+
+.tag-entry .entry-cover {
+  display: block;
+}

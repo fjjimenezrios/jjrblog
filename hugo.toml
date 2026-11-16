@@ -4,6 +4,8 @@ canonifyURLs = false
 locale = "es"
 defaultContentLanguage = "es"
 theme = "papermod"
+enableGitInfo = true
+enableRobotsTXT = true
 paginate = 5
 
 [params]
@@ -14,8 +16,16 @@ paginate = 5
   fullWidthTheme = true
   centerTheme = true
   autoCover = true
-  showLastUpdated = false
-  readingTime = true
+  ShowBreadCrumbs = true
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowToc = true
+  TocOpen = false
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons = true
+  ShowLastUpdated = true
+  description = "Blog de un pensador que desarrolla: filosofía, política y desarrollo web."
 
 [params.label]
   icon = "logo.png"
