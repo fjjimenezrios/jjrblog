@@ -3,6 +3,10 @@ title: La vida es hacer o ser, primera entrada del blog
 day: 2024-11-27
 tags:
   - vida
+cover:
+  image: /images/escuela-de-atenas.jpg
+  alt: La escuela de Atenas, de Rafael
+  caption: La escuela de Atenas, Rafael (1511)
 ---
 ## La vida ante nosotros
 
