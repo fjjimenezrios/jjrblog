@@ -4,6 +4,11 @@
     <title>Tags on JJR Blog</title>
     <link>/tags/</link>
     <description>Recent content in Tags on JJR Blog</description>
+    <image>
+      <title>JJR Blog</title>
+      <url>https://fjjimenezrios.github.io/jjrblog/images/og.jpg</url>
+      <link>https://fjjimenezrios.github.io/jjrblog/images/og.jpg</link>
+    </image>
     <generator>Hugo</generator>
     <language>es</language>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
